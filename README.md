@@ -26,6 +26,10 @@ We will scan empty location that we can reach when we break one wall.
 
 So the sequence will be like this.
 
+![image](https://github.com/Choi-JaeHyeok-21500749/Hard_1261_Algospot/blob/main/exxxxxx.PNG)
+
+Black -> blue -> red
+
 After that , when we reach (N , M) , print it and end.
 
 ## Where can I get more help, if I need it?
