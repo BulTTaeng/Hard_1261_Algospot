@@ -16,9 +16,15 @@ Graph Algorithm , 0-1 bfs
 
 The hard part was think that I should use 0-1 bfs.
 
-Because we did not count the cost of moving , this problem is same with starting from every '0' (empty) location and find the min distance to (N ,M).
+Because we did not count the cost of moving , push every empty location that is connected to the starting point(1,1).
 
-So, after putting every '0' spot to the front fo deque and if we have to break a wall , put it in the back of deque.
+While doing so , push_back all connected locations.
+
+When we are done with empty location('0') we will check wall location('1') which we have to break only 1 wall.
+
+We will scan empty location that we can reach when we break one wall.
+
+So the sequence will be like this.
 
 After that , when we reach (N , M) , print it and end.
 
